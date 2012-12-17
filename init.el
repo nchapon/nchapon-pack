@@ -6,7 +6,7 @@
 ;; Load bindings config
 (live-load-config-file "bindings.el")
 
-;;
+;; Midje Mode
 (live-add-pack-lib "midje")
 (require 'midje-mode)
 (require 'clojure-jump-to-file)
