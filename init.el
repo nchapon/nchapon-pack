@@ -13,6 +13,9 @@
 (require 'midje-mode)
 (require 'clojure-jump-to-file)
 
+;; Pomodoro Mode
+(live-add-pack-lib "pomodoro")
+(require 'pomodoro)
 
 
 ;; Gandalf mode

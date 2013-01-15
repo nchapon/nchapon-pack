@@ -64,7 +64,7 @@
          ;; These are static files (images, pdf, etc)
          ("org-static"
                 :base-directory "~/notes/" ;; Change this to your local dir
-                :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|txt\\|asc"
+                :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|txt\\|asc\\|svg"
                 :publishing-directory "~/public_html/"
                 :recursive t
                 :publishing-function org-publish-attachment
