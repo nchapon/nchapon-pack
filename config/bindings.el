@@ -16,3 +16,9 @@
 
 ;; Navigation betweeen buffers with ALT+ARROWS
 (windmove-default-keybindings 'meta)
+
+;; Prefer backward-kill-word over Backspace
+;; https://sites.google.com/site/steveyegge2/effective-emacs
+(global-set-key "\C-w" 'backward-kill-word)
+(global-set-key "\C-x\C-k" 'kill-region)
+(global-set-key "\C-c\C-k" 'kill-region)
